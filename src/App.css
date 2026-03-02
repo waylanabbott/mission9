@@ -1,3 +1,4 @@
+/* Main app container - centered on page with max width */
 .App {
   font-family: Arial, sans-serif;
   max-width: 1200px;
@@ -5,26 +6,31 @@
   padding: 20px;
 }
 
+/* Header section - centered text with space below */
 .header {
   text-align: center;
   margin-bottom: 30px;
 }
 
+/* Header title color */
 .header h1 {
   color: #333;
 }
 
+/* Header description text styling */
 .header p {
   color: #666;
   font-size: 1.1rem;
 }
 
+/* Team list grid - responsive layout that wraps cards automatically */
 .team-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
 }
 
+/* Individual team card styling - border, rounded corners, shadow */
 .team-card {
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -32,18 +38,21 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* School name inside the card */
 .team-card h2 {
   margin: 0 0 8px 0;
   color: #222;
   font-size: 1.2rem;
 }
 
+/* Mascot name - italic to differentiate from school name */
 .team-card .mascot {
   margin: 0 0 4px 0;
   color: #555;
   font-style: italic;
 }
 
+/* Location text - smaller and lighter */
 .team-card .location {
   margin: 0;
   color: #888;
